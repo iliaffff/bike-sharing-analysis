@@ -72,25 +72,11 @@ On non-working days, rentals are more concentrated around the middle of the day,
 
 Average rental demand was different across seasons.
 
-| Season |  Average rentals  |
-| Winter |      111.1        |
-| Spring |      208.3        |
-| Summer |      236.0        | 
-| Fall   |      198.9        |
-
 Summer had the highest average rental demand, while winter had the lowest.
 
 ### Weather
 
 Rental demand was also lower under worse weather conditions.
-
-The average number of rentals was approximately:
-
-| Weather condition                    | Average rentals |
-| Clear / partly cloudy                |      204.9      |
-| Mist / cloudy                        |      175.2      |
-| Light rain / snow                    |      111.6      |
-| Heavy rain / other severe conditions |      74.3       |
 
 ### Casual vs registered users
 
@@ -102,13 +88,6 @@ Registered users made up most of the rentals in the dataset.
 The two groups also showed different hourly patterns. Registered users had much stronger morning and evening peaks on working days, while casual users had higher demand during the middle of the day, especially on non-working days.
 
 ### Correlation
-
-Some correlations with total rentals (`cnt`) were:
-
-| Variable    |  Correlation with `cnt` |
-| Temperature |   0.405 |
-| Humidity    |  -0.323 |
-| Windspeed   |   0.093 |
 
 Temperature had the strongest linear correlation with rental demand among these weather variables.
 
